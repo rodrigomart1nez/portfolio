@@ -51,8 +51,13 @@
   .par {
     margin-right: 2rem;
     text-align: left;
+    margin-left: 3.5rem;
   }
   .sub, .sub2 {
     margin-right: 2rem;
+    margin-left: 3.5rem;
+  }
+  .sub {
+    margin-top: 1rem;
   }
 }
