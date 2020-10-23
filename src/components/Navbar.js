@@ -51,7 +51,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href='pdfs/resume_español.pdf'
+                href='pdfs/resume.pdf'
                 download='Resume_Rodrigo_Martinez'
                 className='nav-links-mobile'
                 onClick={closeMenu}
@@ -60,7 +60,7 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          {button && <a href='pdfs/resume_español.pdf' download='Resume_Rodrigo_Martinez'> <Button buttonStyle='btn--outline'>Resume   <i className="far fa-file-pdf"></i></Button> </a>}
+          {button && <a href='pdfs/resume.pdf' download='Resume_Rodrigo_Martinez'> <Button buttonStyle='btn--outline'>Resume   <i className="far fa-file-pdf"></i></Button> </a>}
         </div>
       </nav>
     </>

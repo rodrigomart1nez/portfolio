@@ -16,7 +16,7 @@ export default function AboutMe() {
       <h4 className='sub2'>◕  An Agile Collaborator </h4>
 
       <p className='par'>
-          With great communication, creative solutions and good decision making, I am able to work with any team and adapt to most circumstances.
+          With great communication skills, creative solutions and good decision making, I am able to work with any team and adapt to most circumstances.
       </p>
     </div>
   )

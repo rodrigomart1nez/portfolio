@@ -35,7 +35,7 @@ function Footer() {
             </a>
             <a
               className='social-icon-link resume'
-              href='pdfs/resume_español.pdf'
+              href='pdfs/resume.pdf'
               download='Resume_Rodrigo_Martinez'
               target='_blank'
               aria-label='Resume'
