@@ -40,6 +40,18 @@
   background-color: #242424;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+  .page {
+    height: 120%;
+  }
+  .par {
+    margin-right: 2rem;
+  }
+  .sub, .sub2 {
+    margin-right: 2rem;
+  }
 }
