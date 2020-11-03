@@ -13,19 +13,32 @@ function Cards() {
   const [modal4, setModal4] = useState(false)
   const [modal5, setModal5] = useState(false)
 
-  const customStyles = {
-    content: {
-      top: '150px',
-      bottom: '120px',
-      right: '100px',
-      left: '100px',
-      zIndex: -1,
-      border:0
-    },
-    overlay: {
-      backgroundColor: 'rgba(0, 0, 0, 0.80)'
-    }
-  };
+  if (window.innerWidth <= 960) {
+    const customStyles = {
+      content: {
+        zIndex: -1,
+        border:0
+      },
+      overlay: {
+        backgroundColor: 'rgba(0, 0, 0, 0.80)'
+      }
+    };
+  } else {
+    const customStyles = {
+      content: {
+        top: '150px',
+        bottom: '120px',
+        right: '100px',
+        left: '100px',
+        zIndex: -1,
+        border:0
+      },
+      overlay: {
+        backgroundColor: 'rgba(0, 0, 0, 0.80)'
+      }
+    };
+  }
+
 
   return (
     <div className='cards' id='cards'>
